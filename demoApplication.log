@@ -1,0 +1,1576 @@
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "X-CHALLENGER: CHALLENGER[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 40[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> X-CHALLENGER: CHALLENGER
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 40
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "\src\test\resources\PostRequest\Req.json"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 400 Bad Request[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 11:21:11 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: text/html;charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 400 Bad Request
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 400 Bad Request
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 11:21:11 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: text/html;charset=utf-8
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: text/html;charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 40[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 40
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "\src\test\resources\PostRequest\Req.json"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 400 Bad Request[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 11:21:44 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: text/html;charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 400 Bad Request
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 400 Bad Request
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 11:21:44 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: text/html;charset=utf-8
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: text/html;charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 71[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 71
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "C:\Users\HII\work\API_Challenge\src\test\resources\PostRequest\Req.json"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 400 Bad Request[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 11:22:54 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: text/html;charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 400 Bad Request
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 400 Bad Request
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 11:22:54 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: text/html;charset=utf-8
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: text/html;charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 105[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 105
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "in voluptate velitaa",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": false,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "iquip ex ea commodoa"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 11:25:07 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/31[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 11:25:07 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/31
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 32[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 32
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "java.io.FileInputStream@56bca85b"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 400 Bad Request[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 11:35:27 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: text/html;charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 400 Bad Request
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 400 Bad Request
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 11:35:27 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: text/html;charset=utf-8
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: text/html;charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 87[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 87
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "Hello World",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": true,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "Post Request"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 11:48:37 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/52[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 11:48:37 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/52
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 87[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 87
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "Hello World",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": true,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "Post Request"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 11:51:01 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/53[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 11:51:01 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/53
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 87[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 87
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "Hello World",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": true,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "Post Request"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 11:51:52 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/54[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 11:51:52 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/54
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 87[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 87
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "Hello World",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": true,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "Post Request"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:03:42 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/65[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:03:42 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/65
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 87[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 87
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "Hello World",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": true,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "Post Request"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:04:50 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/66[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:04:50 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/66
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /challenger HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 0
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:18:42 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: d4a7dcc1-f96c-4224-80bc-914d6789bcbc[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: /gui/challenges/d4a7dcc1-f96c-4224-80bc-914d6789bcbc[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: text/html;charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:18:42 GMT
+[main] DEBUG org.apache.http.headers  - << X-Challenger: d4a7dcc1-f96c-4224-80bc-914d6789bcbc
+[main] DEBUG org.apache.http.headers  - << Location: /gui/challenges/d4a7dcc1-f96c-4224-80bc-914d6789bcbc
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << Content-Type: text/html;charset=utf-8
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: text/html;charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /challenger HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 0
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:21:44 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: 89496460-c45d-4762-8934-3a9bba8f5f33[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: /gui/challenges/89496460-c45d-4762-8934-3a9bba8f5f33[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: text/html;charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:21:44 GMT
+[main] DEBUG org.apache.http.headers  - << X-Challenger: 89496460-c45d-4762-8934-3a9bba8f5f33
+[main] DEBUG org.apache.http.headers  - << Location: /gui/challenges/89496460-c45d-4762-8934-3a9bba8f5f33
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << Content-Type: text/html;charset=utf-8
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: text/html;charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "X-CHALLENGER: 89496460-c45d-4762-8934-3a9bba8f5f33[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 87[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> X-CHALLENGER: 89496460-c45d-4762-8934-3a9bba8f5f33
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 87
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "Hello World",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": true,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "Post Request"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:21:45 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/77[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: 89496460-c45d-4762-8934-3a9bba8f5f33[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:21:45 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/77
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: 89496460-c45d-4762-8934-3a9bba8f5f33
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.wire  -  << "{"id":77,"title":"Hello World","doneStatus":true,"description":"Post Request"}"
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1bb9aa43
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60533<->34.197.199.182:443 shut down
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /challenger HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 0
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:23:55 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: eb52bc0c-da45-4663-96c8-34342d296e15[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: /gui/challenges/eb52bc0c-da45-4663-96c8-34342d296e15[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: text/html;charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:23:55 GMT
+[main] DEBUG org.apache.http.headers  - << X-Challenger: eb52bc0c-da45-4663-96c8-34342d296e15
+[main] DEBUG org.apache.http.headers  - << Location: /gui/challenges/eb52bc0c-da45-4663-96c8-34342d296e15
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << Content-Type: text/html;charset=utf-8
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: text/html;charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "X-CHALLENGER: eb52bc0c-da45-4663-96c8-34342d296e15[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 87[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> X-CHALLENGER: eb52bc0c-da45-4663-96c8-34342d296e15
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 87
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "Hello World",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": true,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "Post Request"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:23:56 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/78[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: eb52bc0c-da45-4663-96c8-34342d296e15[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:23:56 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/78
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: eb52bc0c-da45-4663-96c8-34342d296e15
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.wire  -  << "{"id":78,"title":"Hello World","doneStatus":true,"description":"Post Request"}"
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@467f77a5
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60547<->34.196.126.99:443 shut down
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /challenger HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 0
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:24:17 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: a3a07fad-abaf-4a51-a26b-cd3383dcbeb5[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: /gui/challenges/a3a07fad-abaf-4a51-a26b-cd3383dcbeb5[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: text/html;charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:24:17 GMT
+[main] DEBUG org.apache.http.headers  - << X-Challenger: a3a07fad-abaf-4a51-a26b-cd3383dcbeb5
+[main] DEBUG org.apache.http.headers  - << Location: /gui/challenges/a3a07fad-abaf-4a51-a26b-cd3383dcbeb5
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << Content-Type: text/html;charset=utf-8
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: text/html;charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "X-CHALLENGER: a3a07fad-abaf-4a51-a26b-cd3383dcbeb5[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 87[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> X-CHALLENGER: a3a07fad-abaf-4a51-a26b-cd3383dcbeb5
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 87
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "Hello World",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": true,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "Post Request"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:24:18 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/79[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: a3a07fad-abaf-4a51-a26b-cd3383dcbeb5[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:24:18 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/79
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: a3a07fad-abaf-4a51-a26b-cd3383dcbeb5
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.wire  -  << "{"id":79,"title":"Hello World","doneStatus":true,"description":"Post Request"}"
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1bb9aa43
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60551<->34.196.126.99:443 shut down
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /challenger HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 0
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:48:32 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: cfe16dd8-cfdf-41da-aa59-bdb301c901b1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: /gui/challenges/cfe16dd8-cfdf-41da-aa59-bdb301c901b1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: text/html;charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:48:32 GMT
+[main] DEBUG org.apache.http.headers  - << X-Challenger: cfe16dd8-cfdf-41da-aa59-bdb301c901b1
+[main] DEBUG org.apache.http.headers  - << Location: /gui/challenges/cfe16dd8-cfdf-41da-aa59-bdb301c901b1
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << Content-Type: text/html;charset=utf-8
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: text/html;charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "X-CHALLENGER: cfe16dd8-cfdf-41da-aa59-bdb301c901b1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 87[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> X-CHALLENGER: cfe16dd8-cfdf-41da-aa59-bdb301c901b1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 87
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "Hello World",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": true,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "Post Request"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:48:34 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/90[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: cfe16dd8-cfdf-41da-aa59-bdb301c901b1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:48:34 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/90
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: cfe16dd8-cfdf-41da-aa59-bdb301c901b1
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.wire  -  << "{"id":90,"title":"Hello World","doneStatus":true,"description":"Post Request"}"
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@467f77a5
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60687<->3.211.220.61:443 shut down
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /challenger HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 0
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:49:03 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: 92fd66dd-6362-49b0-8521-fd45bf6483c2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: /gui/challenges/92fd66dd-6362-49b0-8521-fd45bf6483c2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: text/html;charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:49:03 GMT
+[main] DEBUG org.apache.http.headers  - << X-Challenger: 92fd66dd-6362-49b0-8521-fd45bf6483c2
+[main] DEBUG org.apache.http.headers  - << Location: /gui/challenges/92fd66dd-6362-49b0-8521-fd45bf6483c2
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << Content-Type: text/html;charset=utf-8
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: text/html;charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "X-CHALLENGER: 92fd66dd-6362-49b0-8521-fd45bf6483c2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 87[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> X-CHALLENGER: 92fd66dd-6362-49b0-8521-fd45bf6483c2
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 87
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "Hello World",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": true,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "Post Request"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:49:05 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/91[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: 92fd66dd-6362-49b0-8521-fd45bf6483c2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:49:05 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/91
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: 92fd66dd-6362-49b0-8521-fd45bf6483c2
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.wire  -  << "{"id":91,"title":"Hello World","doneStatus":true,"description":"Post Request"}"
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@467f77a5
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60697<->3.211.220.61:443 shut down
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /challenger HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 0
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:53:07 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: b39838fe-1b10-443c-9c41-e02d764d2609[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: /gui/challenges/b39838fe-1b10-443c-9c41-e02d764d2609[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: text/html;charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:53:07 GMT
+[main] DEBUG org.apache.http.headers  - << X-Challenger: b39838fe-1b10-443c-9c41-e02d764d2609
+[main] DEBUG org.apache.http.headers  - << Location: /gui/challenges/b39838fe-1b10-443c-9c41-e02d764d2609
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << Content-Type: text/html;charset=utf-8
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: text/html;charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "X-CHALLENGER: b39838fe-1b10-443c-9c41-e02d764d2609[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 87[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> X-CHALLENGER: b39838fe-1b10-443c-9c41-e02d764d2609
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 87
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "Hello World",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": true,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "Post Request"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:53:08 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/92[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: b39838fe-1b10-443c-9c41-e02d764d2609[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:53:08 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/92
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: b39838fe-1b10-443c-9c41-e02d764d2609
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.wire  -  << "{"id":92,"title":"Hello World","doneStatus":true,"description":"Post Request"}"
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1bb9aa43
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60722<->54.209.71.245:443 shut down
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /challenger HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 0
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:54:12 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: 1c97ead6-374b-425f-85d5-2e78f7b08e24[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: /gui/challenges/1c97ead6-374b-425f-85d5-2e78f7b08e24[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: text/html;charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:54:12 GMT
+[main] DEBUG org.apache.http.headers  - << X-Challenger: 1c97ead6-374b-425f-85d5-2e78f7b08e24
+[main] DEBUG org.apache.http.headers  - << Location: /gui/challenges/1c97ead6-374b-425f-85d5-2e78f7b08e24
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << Content-Type: text/html;charset=utf-8
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: text/html;charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "X-CHALLENGER: 1c97ead6-374b-425f-85d5-2e78f7b08e24[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 87[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> X-CHALLENGER: 1c97ead6-374b-425f-85d5-2e78f7b08e24
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 87
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "Hello World",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": true,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "Post Request"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:54:14 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/93[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: 1c97ead6-374b-425f-85d5-2e78f7b08e24[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:54:14 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/93
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: 1c97ead6-374b-425f-85d5-2e78f7b08e24
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.wire  -  << "{"id":93,"title":"Hello World","doneStatus":true,"description":"Post Request"}"
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@467f77a5
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60731<->52.71.62.236:443 shut down
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 87[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 87
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "Hello World",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": true,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "Post Request"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:54:33 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/94[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:54:33 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/94
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.wire  -  << "{"id":94,"title":"Hello World","doneStatus":true,"description":"Post Request"}"
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3153ddfc
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60734<->52.71.62.236:443 shut down
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 87[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 87
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "Hello World",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": true,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "Post Request"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:55:29 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/95[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:55:29 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/95
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.wire  -  << "{"id":95,"title":"Hello World","doneStatus":true,"description":"Post Request"}"
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3153ddfc
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60742<->3.223.244.227:443 shut down
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 87[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 87
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "Hello World",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": true,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "Post Request"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:55:51 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/96[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:55:51 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/96
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.wire  -  << "{"id":96,"title":"Hello World","doneStatus":true,"description":"Post Request"}"
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3153ddfc
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60749<->3.223.244.227:443 shut down
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /challenger HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /challenger HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 0
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 12:57:08 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: 8f59dc4d-7232-4889-902b-e9f8b286e025[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: /gui/challenges/8f59dc4d-7232-4889-902b-e9f8b286e025[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: text/html;charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 12:57:08 GMT
+[main] DEBUG org.apache.http.headers  - << X-Challenger: 8f59dc4d-7232-4889-902b-e9f8b286e025
+[main] DEBUG org.apache.http.headers  - << Location: /gui/challenges/8f59dc4d-7232-4889-902b-e9f8b286e025
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << Content-Type: text/html;charset=utf-8
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: text/html;charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to apichallenges.herokuapp.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /todos HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 87[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: apichallenges.herokuapp.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /todos HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 87
+[main] DEBUG org.apache.http.headers  - >> Host: apichallenges.herokuapp.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "title": "Hello World",[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "doneStatus": true,[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "  "description": "Post Request"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Date: Wed, 23 Dec 2020 13:00:55 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Location: todos/107[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Headers: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << Connection: close
+[main] DEBUG org.apache.http.headers  - << Date: Wed, 23 Dec 2020 13:00:55 GMT
+[main] DEBUG org.apache.http.headers  - << Content-Type: application/json
+[main] DEBUG org.apache.http.headers  - << Location: todos/107
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Headers: *
+[main] DEBUG org.apache.http.headers  - << X-Challenger: UNKNOWN CHALLENGER - NO CHALLENGES TRACKED
+[main] DEBUG org.apache.http.headers  - << Server: Jetty(9.4.z-SNAPSHOT)
+[main] DEBUG org.apache.http.headers  - << Via: 1.1 vegur
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.wire  -  << "{"id":107,"title":"Hello World","doneStatus":true,"description":"Post Request"}"
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3153ddfc
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60783<->54.175.254.230:443 shut down
